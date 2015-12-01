@@ -1,0 +1,35 @@
+You will be building a conversion method that takes an arabic number (1, 2, 3, ...)
+and converts it to its Roman numeral equivalent (I, II, III, ...).
+
+You will find the conversion table for Roman digits summarized in RomanTest.
+
+See https://en.wikipedia.org/wiki/Roman_numerals for further details on how Roman numberals are encoded.
+
+Start simple, as always.
+
+Don't assume that your tests will go in order 1, 2, 3, 4, 5, 6, 7, ... Seek the test that
+would make for the next simplest increment of code. Numbers like 4 (IV) are complex and 
+should be saved until you've built an algorithm that supports simpler encodings.
+
+Make sure you refactor at each step. Any time you repeat a concept (e.g. an "if" clause),
+think of how to get rid of it. If you start seeing something like:
+
+   if (arabic == 1) {
+   }
+   else if (arabic == ...) {
+     // ...
+   } else if (arabic == ...) {
+      // ...
+   }
+
+then you've gone too far.
+
+When you refactor, if your code looks similar, try to make it look even more alike and then
+refactor it to eliminate the duplication.
+
+Don't prematurely optimize the code. Use a simple while loop instead of a for loop, for example. Once
+you've supported all your test cases, then you can go back and refactor.
+
+Don't be afraid to toss a little bit of code and back up a bit if you get stuck!
+
+Don't be afraid to ask for suggestions!
