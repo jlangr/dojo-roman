@@ -6,8 +6,8 @@ import static org.hamcrest.CoreMatchers.*;
 // 5 = V     50 = L   500 = D
 
 public class RomanTest {
-   @Test
-   public void convertsRomanNumbersToArabic() {
-      assertThat(Roman.fromArabic(1), equalTo("I"));
-   }
+    @Test
+    public void convertsRomanNumbersToArabic() {
+        assertThat(Roman.fromArabic(1), equalTo("I"));
+    }
 }
